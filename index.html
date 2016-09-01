@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -8,50 +9,69 @@
   <body>
 
     <div id="intro" class="container-fluid">
-      <h1>Spike Spiegel</h1>
+      <h1>Spike Speigel</h1>
       <h5>Freelance Photographer</h5>
       <a href="#gallery">Gallery</a>
     </div>
-    <div class="about container">
-      <h2 id="about">About Me</h2>
-        <div class="row">
-          <div class="col-xs-4">
-            <h2>I'm a self-taught photographer with a passion for travel and design.</h2>
-          </div>
-          <div class="col-xs-4">
-            <h5>"I was born in Cape Town, South Africa and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment. Join me on my journey!"</h5>
-          </div>
+
+    <div id="about" class="about container">
+      <h2>About Me</h2>
+      <div class="row">
+        <div class="col-xs-4">
+          <h2>I'm a self-taught photographer with a passion for travel and design.</h2>
         </div>
-    </div>
-    <div class="gallery container">
-      <h2 id="gallery">Gallery</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-01.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-02.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-03.jpg" alt="Portfolio image"/></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-04.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-05.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-06.jpg" alt="Portfolio image"/></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-07.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img style="height:300px; width:350px" src="img/gallery/gallery-08.jpg" alt="Portfolio image"/></div>
-          <div class="col-xs-4"><img height="300" width="350" src="img/gallery/gallery-09.jpg" alt="Portfolio image"/></div>
+        <div class="col-xs-4">
+          <h5>"I was born in Cape Town, South Africa and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment. Join me on my journey!"</h5>
         </div>
       </div>
     </div>
-    <div class="bridge">
 
+    <div id="gallery" class="gallery container">
+      <h2>Gallery</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="img/gallery/gallery-01.jpg" alt="Portfolio image" height="300px" width="350px" />
+          </div>
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-02.jpg" alt="Portfolio image"/>
+          </div>
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-03.jpg" alt="Portfolio image"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-04.jpg" alt="Portfolio image"/>
+          </div>
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-05.jpg" alt="Portfolio image"/>
+          </div>
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-06.jpg" alt="Portfolio image"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-07.jpg" alt="Portfolio image"/>
+          </div>
+          <div class="col-xs-4">
+            <img style="height:300px; width:350px" src="img/gallery/gallery-08.jpg" alt="Portfolio image"/>
+          </div>
+          <div class="col-xs-4">
+            <img height="300" width="350" src="img/gallery/gallery-09.jpg" alt="Portfolio image"/></div>
+        </div>
+      </div>
     </div>
-    <div class="contact container">
-      <h2 id="contact">Contact Me</h2>
+
+    <div class="bridge container-fluid"></div>
+
+    <div id="contact" class="contact container">
+      <h2>Contact Me</h2>
       <p>I'm available for freelance - from events like weddings to documenting your next adventure, let's chat!</p>
       <a href="mailto:mail@me.com">Email</a>
-      <div class="social">
-        <div class="row">
+
+      <div id="social">
           <div class="col-xs-4">
             <a href="http://www.twitter.com"><img height="20" width="20" src="img/icons/twitter.svg" alt="Twitter"/></a>
           </div>
@@ -64,12 +84,13 @@
         </div>
       </div>
     </div>
-    <div class="footer container">
+
+    <div id="footer" class="container">
       <div class="footer-item">
         <h4><strong>Marcus<br>Sakoda</strong></h4>
       </div>
       <div class="footer-item">
-        <a href="#about">About</a>
+        <a href="#intro">About</a>
       </div>
       <div class="footer-item">
         <a href="#gallery">Gallery</a>
@@ -78,5 +99,7 @@
         <a href="#contact">Contact</a>
       </div>
     </div>
+
   </body>
+
 </html>
